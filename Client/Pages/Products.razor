@@ -3,7 +3,7 @@
 @inject NavigationManager navigation
 
 <div class="content-container">
-    <ListHeader Title="My List"
+    <ListHeader Title="Meine Liste"
                 HandleAdd="@AddNewProduct"
                 HandleRefresh="@HandleRefresh"
                 RoutePath="/products" />
@@ -53,7 +53,7 @@
     {
         productToDelete = product;
         showModal = true;
-        modalMessage = $"Would you like to delete {productToDelete.Name}";
+        modalMessage = $"Möchten Sie {productToDelete.Name} entfernen?";
     }
 
     private void CloseModal()

@@ -25,10 +25,10 @@ else
                            readonly="readonly" />
                 }
                 <InputDetail Name="name"
-                             Placeholder="Oranges"
+                             Placeholder="Orangen"
                              @bind-Value="product.Name" />
                 <InputDetail Name="description"
-                             Placeholder="box"
+                             Placeholder="Packung"
                              @bind-Value="product.Description" />
                 <div class="field">
                     <label class="label" for="quantity">
@@ -49,11 +49,11 @@ else
             <ButtonFooter Class="cancel-button"
                           IconClasses="fas fa-undo"
                           OnClick="@CancelProduct"
-                          Label="Cancel" />
+                          Label="Abbrechen" />
             <ButtonFooter Class="save-button"
                           IconClasses="fas fa-save"
                           OnClick="@Save"
-                          Label="Save" />
+                          Label="Speichern" />
         </footer>
     </div>
 }
